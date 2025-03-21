@@ -40,6 +40,8 @@ select count(*), count(distinct(cc_company_id)) from dev_rippling_db.public.ngro
 
 select * from dev_rippling_db.public.ngrossman_cc_crypto;
 
+select * from dev_rippling_db.public.ngrossman_cc_crypto order by potential_crypto_company desc, cc_company_name;
+
 
 ----------------------
 -- DATA EXPLORATION --
